@@ -1,0 +1,304 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "New Breakthrough in Renewable Energy",
+      "shortDescription": "Scientists discover a more efficient way to harness solar power.",
+      "imageUrl": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d",
+      "news": "Researchers have developed solar panels with 30% higher efficiency using perovskite materials. This breakthrough could make solar energy competitive with fossil fuels.",
+      "likesCount": 245,
+      "dislikeCount": 12,
+      "publishingDate": "2023-05-15T08:30:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Global Tech Conference Announced",
+      "shortDescription": "Annual tech event to feature biggest names in industry.",
+      "imageUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4",
+      "news": "TechFuture 2023 will host speakers from Google, Tesla, and emerging startups. The event focuses on AI, quantum computing, and sustainable tech solutions.",
+      "likesCount": 189,
+      "dislikeCount": 5,
+      "publishingDate": "2023-04-22T14:15:00Z"
+    },
+    {
+      "id": 3,
+      "title": "New Study Reveals Benefits of Mediterranean Diet",
+      "shortDescription": "Research confirms significant health improvements for followers.",
+      "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "news": "A 10-year study shows Mediterranean diet adherents had 25% lower heart disease rates and improved cognitive function compared to control groups.",
+      "likesCount": 320,
+      "dislikeCount": 8,
+      "publishingDate": "2023-03-10T09:45:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Major City Announces Car-Free Downtown Zone",
+      "shortDescription": "Urban center to ban private vehicles starting next year.",
+      "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+      "news": "The 15-block pedestrian zone will feature expanded bike lanes, green spaces, and dedicated lanes for emergency vehicles and public transit.",
+      "likesCount": 412,
+      "dislikeCount": 67,
+      "publishingDate": "2023-02-28T16:20:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Breakthrough in Quantum Computing",
+      "shortDescription": "Researchers achieve quantum supremacy with new processor.",
+      "imageUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb",
+      "news": "The new 256-qubit processor solved a complex optimization problem in 3 minutes that would take conventional supercomputers 10,000 years.",
+      "likesCount": 298,
+      "dislikeCount": 14,
+      "publishingDate": "2023-01-17T11:10:00Z"
+    },
+    {
+      "id": 6,
+      "title": "New National Park Established",
+      "shortDescription": "Government protects 500,000 acres of pristine wilderness.",
+      "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+      "news": "The new park protects critical habitat for grizzly bears, wolves, and over 200 bird species while offering new hiking and camping opportunities.",
+      "likesCount": 567,
+      "dislikeCount": 23,
+      "publishingDate": "2022-12-05T13:00:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Electric Vehicle Sales Surpass Predictions",
+      "shortDescription": "Adoption rates exceed even the most optimistic forecasts.",
+      "imageUrl": "https://images.unsplash.com/photo-1555215695-3004980ad54e",
+      "news": "EVs now represent 18% of new car sales globally, with some countries exceeding 50% market share as charging infrastructure expands rapidly.",
+      "likesCount": 432,
+      "dislikeCount": 45,
+      "publishingDate": "2022-11-19T10:30:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Major Breakthrough in Cancer Research",
+      "shortDescription": "New treatment approach shows remarkable success in trials.",
+      "imageUrl": "https://images.unsplash.com/photo-1576091160550-2173dba999ef",
+      "news": "The new immunotherapy treatment achieved 80% remission rates in early-stage trials for previously untreatable forms of lymphoma.",
+      "likesCount": 876,
+      "dislikeCount": 9,
+      "publishingDate": "2022-10-08T15:45:00Z"
+    },
+    {
+      "id": 9,
+      "title": "World Population Reaches 8 Billion",
+      "shortDescription": "UN announces milestone demographic figure.",
+      "imageUrl": "https://images.unsplash.com/photo-1486401899868-0e435ed85128",
+      "news": "While growth rates are slowing, the population is projected to reach 9.7 billion by 2050, with most growth occurring in developing nations.",
+      "likesCount": 342,
+      "dislikeCount": 78,
+      "publishingDate": "2022-09-21T07:20:00Z"
+    },
+    {
+      "id": 10,
+      "title": "Historic Peace Agreement Signed",
+      "shortDescription": "Decades-long conflict comes to an end.",
+      "imageUrl": "https://images.unsplash.com/photo-1508784411316-02b8cd4d3a3a",
+      "news": "The comprehensive agreement includes provisions for disarmament, power-sharing, and international monitoring to ensure compliance from all parties.",
+      "likesCount": 987,
+      "dislikeCount": 34,
+      "publishingDate": "2022-08-14T18:00:00Z"
+    },
+    {
+      "id": 11,
+      "title": "New AI Model Passes Turing Test",
+      "shortDescription": "Breakthrough in natural language processing achieved.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442135136-760c813a743c",
+      "news": "The AI system convinced 72% of human judges it was human during extended conversations across diverse topics, marking a milestone in machine intelligence.",
+      "likesCount": 654,
+      "dislikeCount": 87,
+      "publishingDate": "2022-07-03T12:15:00Z"
+    },
+    {
+      "id": 12,
+      "title": "Space Tourism Takes Next Step",
+      "shortDescription": "First civilian space station module launched.",
+      "imageUrl": "https://images.unsplash.com/photo-1454789548928-9efd52dc4031",
+      "news": "The commercial habitat module successfully docked with the ISS, offering future space tourists luxurious accommodations with panoramic Earth views.",
+      "likesCount": 765,
+      "dislikeCount": 56,
+      "publishingDate": "2022-06-18T09:30:00Z"
+    },
+    {
+      "id": 13,
+      "title": "Record-Breaking Athlete Retires",
+      "shortDescription": "Olympic champion ends storied career.",
+      "imageUrl": "https://images.unsplash.com/photo-1547347298-4074fc3086f0",
+      "news": "The 5-time gold medalist announced her retirement after dominating the sport for 12 years, during which she set 8 world records.",
+      "likesCount": 543,
+      "dislikeCount": 12,
+      "publishingDate": "2022-05-29T17:45:00Z"
+    },
+    {
+      "id": 14,
+      "title": "Major Cybersecurity Vulnerability Discovered",
+      "shortDescription": "Critical flaw affects millions of devices worldwide.",
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+      "news": "The 'Shellshock 2.0' vulnerability in common networking software could allow remote code execution on affected systems. Emergency patches are being released.",
+      "likesCount": 321,
+      "dislikeCount": 5,
+      "publishingDate": "2022-04-12T14:00:00Z"
+    },
+    {
+      "id": 15,
+      "title": "Pandemic Travel Restrictions Lifted",
+      "shortDescription": "Most countries remove final COVID-19 entry requirements.",
+      "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05",
+      "news": "With global cases at record lows, nations are removing testing and vaccination requirements, though health officials recommend maintaining basic precautions.",
+      "likesCount": 789,
+      "dislikeCount": 43,
+      "publishingDate": "2022-03-22T11:20:00Z"
+    },
+    {
+      "id": 16,
+      "title": "Breakthrough in Battery Technology",
+      "shortDescription": "New design promises faster charging, longer life.",
+      "imageUrl": "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
+      "news": "The solid-state battery prototype achieves full charge in 8 minutes and maintains 95% capacity after 1,000 cycles, potentially revolutionizing EVs.",
+      "likesCount": 532,
+      "dislikeCount": 18,
+      "publishingDate": "2022-02-14T10:15:00Z"
+    },
+    {
+      "id": 17,
+      "title": "New Species Discovered in Amazon Rainforest",
+      "shortDescription": "Expedition uncovers previously unknown biodiversity.",
+      "imageUrl": "https://images.unsplash.com/photo-1682686580391-615b3f4f56bd",
+      "news": "Scientists identified 14 new species including a fluorescent frog and carnivorous plant, highlighting the importance of preserving unexplored ecosystems.",
+      "likesCount": 421,
+      "dislikeCount": 7,
+      "publishingDate": "2022-01-09T08:45:00Z"
+    },
+    {
+      "id": 18,
+      "title": "Global Literacy Rates Reach All-Time High",
+      "shortDescription": "UNESCO reports significant progress in education access.",
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1",
+      "news": "Literacy rates now exceed 90% globally, with the most dramatic improvements in sub-Saharan Africa due to mobile learning initiatives.",
+      "likesCount": 378,
+      "dislikeCount": 12,
+      "publishingDate": "2021-12-03T13:30:00Z"
+    },
+    {
+      "id": 19,
+      "title": "Revolutionary 3D Printing Technique Developed",
+      "shortDescription": "New method allows printing with multiple materials simultaneously.",
+      "imageUrl": "https://images.unsplash.com/photo-1581093057305-25f4a9b8eaf1",
+      "news": "The 'OmniPrint' system can seamlessly combine metals, plastics, and biological materials in single objects, enabling complex functional devices.",
+      "likesCount": 287,
+      "dislikeCount": 9,
+      "publishingDate": "2021-11-17T15:20:00Z"
+    },
+    {
+      "id": 20,
+      "title": "Historic Climate Agreement Strengthened",
+      "shortDescription": "Nations commit to more ambitious emissions targets.",
+      "imageUrl": "https://images.unsplash.com/photo-1615874694520-8229c5c6c5b2",
+      "news": "196 countries agreed to accelerate carbon neutrality timelines by 10 years and establish a global carbon market with strict verification protocols.",
+      "likesCount": 654,
+      "dislikeCount": 56,
+      "publishingDate": "2021-10-22T09:10:00Z"
+    },
+    {
+      "id": 21,
+      "title": "Breakthrough in Alzheimer's Research",
+      "shortDescription": "New biomarker allows earlier detection than ever before.",
+      "imageUrl": "https://images.unsplash.com/photo-1579684385127-1ef15d508118",
+      "news": "The blood test detects Alzheimer's biomarkers with 97% accuracy up to 15 years before symptoms, enabling preventative treatment approaches.",
+      "likesCount": 721,
+      "dislikeCount": 8,
+      "publishingDate": "2021-09-14T11:40:00Z"
+    },
+    {
+      "id": 22,
+      "title": "Ocean Cleanup Project Exceeds Goals",
+      "shortDescription": "Innovative system removes record amount of plastic waste.",
+      "imageUrl": "https://images.unsplash.com/photo-1536939459926-301728717817",
+      "news": "The nonprofit's latest system collected 120 tons of plastic from the Great Pacific Garbage Patch in 3 months, surpassing projections by 40%.",
+      "likesCount": 832,
+      "dislikeCount": 15,
+      "publishingDate": "2021-08-07T14:50:00Z"
+    },
+    {
+      "id": 23,
+      "title": "Universal Flu Vaccine Shows Promise",
+      "shortDescription": "Clinical trials demonstrate effectiveness against multiple strains.",
+      "imageUrl": "https://images.unsplash.com/photo-1579684453423-f84349ef60b0",
+      "news": "The vaccine targeting conserved viral regions showed 78% efficacy across all tested flu variants in Phase 3 trials lasting two flu seasons.",
+      "likesCount": 543,
+      "dislikeCount": 23,
+      "publishingDate": "2021-07-19T10:25:00Z"
+    },
+    {
+      "id": 24,
+      "title": "Major Advance in Fusion Energy",
+      "shortDescription": "Experiment achieves sustained reaction at practical scale.",
+      "imageUrl": "https://images.unsplash.com/photo-1642790554909-8b4d5c72cd82",
+      "news": "The tokamak reactor maintained plasma at 100 million degrees Celsius for 400 seconds while producing net energy gain, a key milestone.",
+      "likesCount": 678,
+      "dislikeCount": 32,
+      "publishingDate": "2021-06-28T16:15:00Z"
+    },
+    {
+      "id": 25,
+      "title": "Global Poverty Rate Falls Below 5%",
+      "shortDescription": "World Bank reports historic milestone in development.",
+      "imageUrl": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+      "news": "Extreme poverty (<$2.15/day) now affects just 4.7% of global population, down from 36% in 1990, though regional disparities remain.",
+      "likesCount": 765,
+      "dislikeCount": 19,
+      "publishingDate": "2021-05-12T12:30:00Z"
+    },
+    {
+      "id": 26,
+      "title": "Self-Driving Cars Approved for City Streets",
+      "shortDescription": "Regulators give green light to autonomous vehicle deployment.",
+      "imageUrl": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d",
+      "news": "Level 4 autonomous vehicles can now operate without safety drivers in designated urban areas after passing rigorous safety evaluations.",
+      "likesCount": 432,
+      "dislikeCount": 87,
+      "publishingDate": "2021-04-05T08:45:00Z"
+    },
+    {
+      "id": 27,
+      "title": "New Archaeological Discovery Rewrites History",
+      "shortDescription": "Ancient settlement predates known civilizations by millennia.",
+      "imageUrl": "https://images.unsplash.com/photo-1639762681057-40897d6a7af1",
+      "news": "The 15,000-year-old site features permanent structures and evidence of proto-agriculture, suggesting civilization began earlier than believed.",
+      "likesCount": 321,
+      "dislikeCount": 14,
+      "publishingDate": "2021-03-18T13:20:00Z"
+    },
+    {
+      "id": 28,
+      "title": "Breakthrough in Water Purification",
+      "shortDescription": "Low-cost system can make seawater drinkable in minutes.",
+      "imageUrl": "https://images.unsplash.com/photo-1551224402-36b5b4a0e032",
+      "news": "The solar-powered device uses graphene membranes to produce 10 liters of clean water per hour from seawater without expensive infrastructure.",
+      "likesCount": 587,
+      "dislikeCount": 9,
+      "publishingDate": "2021-02-09T10:10:00Z"
+    },
+    {
+      "id": 29,
+      "title": "Major Sports League Goes Carbon Neutral",
+      "shortDescription": "Organization commits to offsetting all emissions from operations.",
+      "imageUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e",
+      "news": "The league will power all stadiums with renewables, transition to electric team transport, and purchase carbon credits for remaining emissions.",
+      "likesCount": 456,
+      "dislikeCount": 21,
+      "publishingDate": "2021-01-22T15:35:00Z"
+    },
+    {
+      "id": 30,
+      "title": "Historic Space Mission Returns with Asteroid Samples",
+      "shortDescription": "Capsule containing pristine space material lands safely.",
+      "imageUrl": "https://images.unsplash.com/photo-1454789548928-9efd52dc4031",
+      "news": "The spacecraft returned several hundred grams of material from asteroid Ryugu that may contain organic compounds relevant to life's origins.",
+      "likesCount": 789,
+      "dislikeCount": 12,
+      "publishingDate": "2020-12-15T07:50:00Z"
+    }
+  ]
+}

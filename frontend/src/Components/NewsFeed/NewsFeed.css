@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 767px) {
+    .errorSect{
+        width: 100%;
+        height: 4rem;
+        color:var(--text-color);
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .errorSect .errBig{
+        font-size: 2rem;
+    }
+    .errorSect .errSmall{
+        font-size: 1rem;
+    }
+
+    .image{
+        width: 100%;
+        height: 10rem;
+    }
+
+    .card{
+        margin:.2rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+       
+        background-color: var(--primary-background);
+        color:var(--text-color);
+    }
+
+    .card .title{
+        font-weight: bolder;
+        font-size:1.5rem;
+        text-align: center;
+    }
+}
