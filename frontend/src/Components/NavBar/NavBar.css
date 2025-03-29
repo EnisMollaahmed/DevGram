@@ -1,4 +1,7 @@
-.navbar{
+.navbar {
+    position: sticky;
+    top: 5rem; /* adjust this based on your header's height */
+    z-index: 99;
     height: 2rem;
     width: 100%;
     display: flex;
@@ -6,7 +9,7 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--secondary-background);
-    padding:.2rem 0;
+    padding: .2rem 0;
 }
 
 .pending{
