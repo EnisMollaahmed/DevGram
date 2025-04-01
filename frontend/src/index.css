@@ -2,7 +2,10 @@
     --header-background: rgb(68, 68, 68);
     --text-color:rgb(239, 239, 239);
     --secondary-background: rgb(86, 86, 86);
-    --primary-background:rgb(101, 101, 101);
+    --primary-background:rgb(101, 101, 101);/*background of widgets*/
+    --background-color:rgb(190, 190, 190);
+
 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--background-color);
 }
