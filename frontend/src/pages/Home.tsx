@@ -1,6 +1,6 @@
+import { Outlet } from "react-router";
 import Header from "../Components/Header/Header";
 import NavBar from "../Components/NavBar/NavBar";
-import NewsFeed from "../Components/NewsFeed/NewsFeed";
 
 
 export default function Home(){
@@ -9,7 +9,7 @@ export default function Home(){
             <Header/>
             <NavBar/>
             <main className="content">
-                <NewsFeed/>
+                <Outlet/>
             </main>
         </>
     )
