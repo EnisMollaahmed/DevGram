@@ -1,4 +1,5 @@
 export type User = {
+    imageUrl:string,
     name:string,
     nickname:string,
     email:string,

@@ -1,24 +1,21 @@
-import { Figure } from "react-bootstrap"
+import { User } from "../types/UserType";
+import ProfilePhotoName from "../Components/ProfilePhotoName/ProfilePhotoName";
+import { Outlet, useOutletContext } from "react-router";
+import NavLinkContainer from "../Components/NavLinkContainer/NavLinkContainer";
 
 export default function ProfilePage(){
-    
+    const userStr = localStorage.getItem(import.meta.env.VITE_CURR_USER);
+    const user: User | null = userStr ? JSON.parse(userStr) : null;
+
     return (
         <main>
-            <section className='photo-name-container'>
-                <Figure>
-                    <Figure.Image
-                        width={171}
-                        height={180}
-                        alt="171x180"
-                        src="holder.js/171x180"
-                        roundedCircle
-                    />
-                    <Figure.Caption>
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
-                    </Figure.Caption>
-                </Figure>
-            </section>
-            
+            <ProfilePhotoName imageUrl={user?.imageUrl as string} username={user?.nickname as string}/>
+            <NavLinkContainer/>
+            <Outlet context={user as User}/>
         </main>
     )
+}
+
+export function useUser():User{
+    return useOutletContext<User>();
 }
