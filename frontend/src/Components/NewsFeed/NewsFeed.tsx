@@ -19,7 +19,7 @@ export default function NewsFeed() {
     );
 
     const [lastNewsRef, inView] = useInView({
-        threshold: 0.1, // Trigger when 50% of last item is visible
+        threshold: 0, 
         triggerOnce: false,
     });
 

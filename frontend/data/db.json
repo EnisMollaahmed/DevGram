@@ -300,5 +300,231 @@
       "dislikeCount": 12,
       "publishingDate": "2020-12-15T07:50:00Z"
     }
+  ],
+  "users":[
+    {
+      "id": 31,
+      "imageUrl": "https://example.com/users/john_doe.jpg",
+      "name": "John Doe",
+      "nickname": "johndoe88",
+      "email": "john.doe@example.com",
+      "developerLevel": "senior",
+      "idOfDislikedNews": [3, 14, 26],
+      "idOfLikedNews": [1, 5, 16, 24],
+      "idOfPostedMemes": [101, 102],
+      "idOfPostedCodes": [201],
+      "idOfCommentsOfCodes": [301],
+      "idOfCommentsOfMemes": [401]
+    },
+    {
+      "id": 32,
+      "imageUrl": "https://example.com/users/jane_smith.jpg",
+      "name": "Jane Smith",
+      "nickname": "janesmith",
+      "email": "jane.smith@example.com",
+      "developerLevel": "mid",
+      "idOfDislikedNews": [7],
+      "idOfLikedNews": [2, 8, 21, 30],
+      "idOfPostedMemes": [103],
+      "idOfPostedCodes": [202, 203],
+      "idOfCommentsOfCodes": [302, 303],
+      "idOfCommentsOfMemes": []
+    },
+    {
+      "id": 33,
+      "imageUrl": "https://example.com/users/bob_johnson.jpg",
+      "name": "Bob Johnson",
+      "nickname": "bobbydev",
+      "email": "bob.johnson@example.com",
+      "developerLevel": "junior",
+      "idOfDislikedNews": [],
+      "idOfLikedNews": [1, 11, 17],
+      "idOfPostedMemes": [],
+      "idOfPostedCodes": [204],
+      "idOfCommentsOfCodes": [304],
+      "idOfCommentsOfMemes": [402, 403]
+    },
+    {
+      "id": 34,
+      "imageUrl": "https://example.com/users/alice_williams.jpg",
+      "name": "Alice Williams",
+      "nickname": "alicew",
+      "email": "alice.williams@example.com",
+      "developerLevel": "team-lead",
+      "idOfDislikedNews": [10],
+      "idOfLikedNews": [4, 7, 22],
+      "idOfPostedMemes": [104, 105, 106],
+      "idOfPostedCodes": [205],
+      "idOfCommentsOfCodes": [305, 306],
+      "idOfCommentsOfMemes": [404]
+    },
+    {
+      "id": 35,
+      "imageUrl": "https://example.com/users/mike_brown.jpg",
+      "name": "Mike Brown",
+      "nickname": "mike_the_architect",
+      "email": "mike.brown@example.com",
+      "developerLevel": "architect",
+      "idOfDislikedNews": [4],
+      "idOfLikedNews": [7, 11, 24],
+      "idOfPostedMemes": [107],
+      "idOfPostedCodes": [206, 207, 208],
+      "idOfCommentsOfCodes": [307, 308, 309],
+      "idOfCommentsOfMemes": [405, 406]
+    }
+  ],
+  "comments":[
+    {
+      "id": "101",
+      "type": "meme",
+      "author": "johndoe88",
+      "publishingDate": "2023-05-10T08:30:00Z",
+      "content": "This meme perfectly captures my Monday morning mood! 😂"
+    },
+    {
+      "id": "102",
+      "type": "snippet",
+      "author": "alicew",
+      "publishingDate": "2023-05-09T14:45:00Z",
+      "content": "This code could be optimized by using a hash map instead of nested loops."
+    },
+    {
+      "id": "103",
+      "type": "meme",
+      "author": "bobbydev",
+      "publishingDate": "2023-05-08T11:20:00Z",
+      "content": "When the code works on first try... suspicious..."
+    },
+    {
+      "id": "104",
+      "type": "snippet",
+      "author": "mike_the_architect",
+      "publishingDate": "2023-05-07T16:10:00Z",
+      "content": "Consider adding error handling for the API response - what if the server returns 429?"
+    },
+    {
+      "id": "105",
+      "type": "meme",
+      "author": "janesmith",
+      "publishingDate": "2023-05-06T12:15:00Z",
+      "content": "Me explaining my code to the rubber duck for the 10th time today 🦆"
+    },
+    {
+      "id": "106",
+      "type": "snippet",
+      "author": "johndoe88",
+      "publishingDate": "2023-05-05T09:40:00Z",
+      "content": "You could use Promise.all here to parallelize these async operations."
+    },
+    {
+      "id": "107",
+      "type": "meme",
+      "author": "bobbydev",
+      "publishingDate": "2023-05-04T13:25:00Z",
+      "content": "When you finally fix that bug after 6 hours of debugging... only to realize you were in the wrong branch the whole time 💀"
+    },
+    {
+      "id": "108",
+      "type": "snippet",
+      "author": "alicew",
+      "publishingDate": "2023-05-03T10:50:00Z",
+      "content": "This needs proper input validation - never trust user input!"
+    },
+    {
+      "id": "109",
+      "type": "meme",
+      "author": "mike_the_architect",
+      "publishingDate": "2023-05-02T15:35:00Z",
+      "content": "Me: 'I'll just do a quick fix' *3 days later*"
+    },
+    {
+      "id": "110",
+      "type": "snippet",
+      "author": "janesmith",
+      "publishingDate": "2023-05-01T11:05:00Z",
+      "content": "The algorithm could be improved by implementing a binary search approach here."
+    }
+  ],
+  "code-posts":[
+    {
+      "id": "code001",
+      "issueDescription": "How to optimize nested loops for better performance?",
+      "codeSnippet": "for (let i = 0; i < array1.length; i++) {\n  for (let j = 0; j < array2.length; j++) {\n    // comparison logic\n  }\n}",
+      "author": "johndoe88",
+      "publishingDate": "2023-05-09T10:15:00Z",
+      "commentsIds": ["102", "106"]
+    },
+    {
+      "id": "code002",
+      "issueDescription": "Proper error handling for API rate limits",
+      "codeSnippet": "async function fetchData() {\n  const response = await fetch('api/data');\n  return response.json();\n}",
+      "author": "alicew",
+      "publishingDate": "2023-05-08T14:20:00Z",
+      "commentsIds": ["104", "108"]
+    },
+    {
+      "id": "code003",
+      "issueDescription": "Implementing binary search algorithm",
+      "codeSnippet": "function search(arr, target) {\n  let left = 0;\n  let right = arr.length - 1;\n  // implementation needed\n}",
+      "author": "mike_the_architect",
+      "publishingDate": "2023-05-07T11:45:00Z",
+      "commentsIds": ["110"]
+    },
+    {
+      "id": "code004",
+      "issueDescription": "Promise.all implementation question",
+      "codeSnippet": "const promises = [fetch(url1), fetch(url2), fetch(url3)];\n// how to handle errors properly?",
+      "author": "janesmith",
+      "publishingDate": "2023-05-06T09:30:00Z",
+      "commentsIds": ["106", "108"]
+    },
+    {
+      "id": "code005",
+      "issueDescription": "Input validation best practices",
+      "codeSnippet": "function processInput(input) {\n  // currently no validation\n  return input.toUpperCase();\n}",
+      "author": "bobbydev",
+      "publishingDate": "2023-05-05T16:10:00Z",
+      "commentsIds": ["108"]
+    },
+    {
+      "id": "code006",
+      "issueDescription": "Hash map implementation question",
+      "codeSnippet": "const dataMap = {};\n// looking for most efficient way to populate and query",
+      "author": "alicew",
+      "publishingDate": "2023-05-04T13:25:00Z",
+      "commentsIds": ["102", "110"]
+    },
+    {
+      "id": "code007",
+      "issueDescription": "Exponential backoff implementation",
+      "codeSnippet": "function retryRequest(url, attempts = 3) {\n  // need to implement backoff delay\n}",
+      "author": "mike_the_architect",
+      "publishingDate": "2023-05-03T10:40:00Z",
+      "commentsIds": ["104"]
+    },
+    {
+      "id": "code008",
+      "issueDescription": "Parallelizing async operations",
+      "codeSnippet": "async function processBatch(items) {\n  // currently processing sequentially\n}",
+      "author": "johndoe88",
+      "publishingDate": "2023-05-02T15:15:00Z",
+      "commentsIds": ["106"]
+    },
+    {
+      "id": "code009",
+      "issueDescription": "Rate limit header implementation",
+      "codeSnippet": "app.get('/api', (req, res) => {\n  // need to add rate limit headers\n});",
+      "author": "janesmith",
+      "publishingDate": "2023-05-01T12:05:00Z",
+      "commentsIds": ["104", "108"]
+    },
+    {
+      "id": "code010",
+      "issueDescription": "Optimizing search in sorted array",
+      "codeSnippet": "function findItem(arr, target) {\n  // linear search - need optimization\n}",
+      "author": "bobbydev",
+      "publishingDate": "2023-04-30T11:50:00Z",
+      "commentsIds": ["102", "110"]
+    }
   ]
 }

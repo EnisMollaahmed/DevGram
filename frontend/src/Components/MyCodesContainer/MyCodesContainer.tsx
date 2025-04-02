@@ -1,7 +1,8 @@
-import { useUser } from "../../pages/ProfilePage";
-import { User } from "../../types/UserType";
+
+import { useOutletContext } from "react-router";
+//import { User } from "../../types/UserType";
 
 export default function MyCodesContainer(){
-    const user:User = useUser();
+    const user = useOutletContext();
     console.log(user)
 }
