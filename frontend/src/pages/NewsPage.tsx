@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import { getOneNews } from '../api/news/getNews';
+import { getOneNews } from '../api/news/newsAPI';
 import { News } from '../types/NewsType';
 import { ErrorMessage } from '../types/ErrorMessage';
 import { useParams } from 'react-router';
