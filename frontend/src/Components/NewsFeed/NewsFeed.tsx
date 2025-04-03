@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import useInfiniteFetch from "../../hooks/useInfiniteFetch";
-import ErrorMessage from "./ErrorMessage";
+import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import PositiveResolve from "./PositiveResolve";
 import { News } from "../../types/NewsType";
 

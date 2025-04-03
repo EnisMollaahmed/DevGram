@@ -13,7 +13,7 @@ export default function ProfilePage(){
         <main>
             <ProfilePhotoName imageUrl={userInfo?.imageUrl as string} username={userInfo?.nickname as string}/>
             <NavLinkContainer/>
-            <Outlet context={[userInfo as User, setUserInfo]}/>
+            <Outlet context={[userInfo as User, setUserInfo]}/>{/*TODO finnish it, add my codes, my memes, bio and current position*/}
         </main>
     )
 }

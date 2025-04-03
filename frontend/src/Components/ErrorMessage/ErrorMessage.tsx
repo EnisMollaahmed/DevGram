@@ -1,4 +1,4 @@
-import './NewsFeed.css';
+import './ErrorMessage.css';
 
 export default function ErrorMessage({message}:{message:string}){
     return (
