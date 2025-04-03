@@ -546,7 +546,206 @@
       "publishingDate": "2023-04-30T11:50:00Z",
       "commentsIds": ["102", "110"],
       "tags": ["java", "algorithm", "optimization"]
+    },
+    {
+      "id": "code011",
+      "title": "Implementing Debounce Function",
+      "issueDescription": "How to properly implement a debounce function in JavaScript?",
+      "codeSnippet": "function debounce(func, delay) {\n  let timeoutId;\n  return function(...args) {\n    // implementation needed\n  };\n}",
+      "author": "johndoe88",
+      "publishingDate": "2023-04-29T09:20:00Z",
+      "commentsIds": ["111", "112"],
+      "tags": ["javascript", "performance", "debounce"]
+    },
+    {
+      "id": "code012",
+      "title": "React Context API Best Practices",
+      "issueDescription": "What are the recommended patterns for using Context API in large React applications?",
+      "codeSnippet": "const MyContext = React.createContext();\n\nfunction App() {\n  // how to properly provide and consume context\n}",
+      "author": "alicew",
+      "publishingDate": "2023-04-28T14:15:00Z",
+      "commentsIds": ["113"],
+      "tags": ["react", "context-api", "best-practices"]
+    },
+    {
+      "id": "code013",
+      "title": "TypeScript Generic Constraints",
+      "issueDescription": "How to properly constrain generic types in TypeScript?",
+      "codeSnippet": "function mergeObjects<T extends object, U extends object>(obj1: T, obj2: U): T & U {\n  // implementation needed\n}",
+      "author": "mike_the_architect",
+      "publishingDate": "2023-04-27T11:30:00Z",
+      "commentsIds": ["114", "115"],
+      "tags": ["typescript", "generics"]
+    },
+    {
+      "id": "code014",
+      "title": "CSS Grid Responsive Layout",
+      "issueDescription": "How to create a responsive grid layout that works on mobile and desktop?",
+      "codeSnippet": ".grid-container {\n  display: grid;\n  /* responsive grid setup needed */\n}",
+      "author": "janesmith",
+      "publishingDate": "2023-04-26T16:45:00Z",
+      "commentsIds": ["116"],
+      "tags": ["css", "grid", "responsive-design"]
+    },
+    {
+      "id": "code015",
+      "title": "JWT Authentication in Node.js",
+      "issueDescription": "Proper implementation of JWT authentication in Express.js",
+      "codeSnippet": "app.post('/login', (req, res) => {\n  // generate and return JWT token\n});",
+      "author": "bobbydev",
+      "publishingDate": "2023-04-25T10:10:00Z",
+      "commentsIds": ["117", "118", "119"],
+      "tags": ["nodejs", "jwt", "authentication"]
+    },
+    {
+      "id": "code016",
+      "title": "Python List Comprehension Optimization",
+      "issueDescription": "How to optimize complex list comprehensions in Python?",
+      "codeSnippet": "result = [x for x in range(100) if x % 2 == 0 and x > 50]\n# can this be optimized further?",
+      "author": "alicew",
+      "publishingDate": "2023-04-24T13:20:00Z",
+      "commentsIds": ["120"],
+      "tags": ["python", "optimization"]
+    },
+    {
+      "id": "code017",
+      "title": "React Custom Hook for API Calls",
+      "issueDescription": "How to create a reusable custom hook for API requests?",
+      "codeSnippet": "function useApi(endpoint) {\n  // implementation needed\n  return { data, loading, error };\n}",
+      "author": "johndoe88",
+      "publishingDate": "2023-04-23T08:35:00Z",
+      "commentsIds": ["121", "122"],
+      "tags": ["react", "hooks", "api"]
+    },
+    {
+      "id": "code018",
+      "title": "Docker Multi-Stage Builds",
+      "issueDescription": "Best practices for optimizing Docker images using multi-stage builds",
+      "codeSnippet": "FROM node:16 as builder\n# first stage\n\nFROM node:16-alpine\n# final stage - how to copy only what's needed?",
+      "author": "mike_the_architect",
+      "publishingDate": "2023-04-22T15:50:00Z",
+      "commentsIds": ["123"],
+      "tags": ["docker", "optimization"]
+    },
+    {
+      "id": "code019",
+      "title": "MongoDB Aggregation Pipeline",
+      "issueDescription": "Complex data transformation using MongoDB aggregation",
+      "codeSnippet": "db.collection.aggregate([\n  { $match: { status: 'active' } },\n  // additional pipeline stages needed\n]);",
+      "author": "janesmith",
+      "publishingDate": "2023-04-21T11:05:00Z",
+      "commentsIds": ["124", "125"],
+      "tags": ["mongodb", "aggregation"]
+    },
+    {
+      "id": "code020",
+      "title": "WebSocket Real-time Updates",
+      "issueDescription": "Implementing real-time updates with WebSocket in React",
+      "codeSnippet": "const socket = new WebSocket('ws://localhost:8080');\n\n// how to properly handle messages and state updates?",
+      "author": "bobbydev",
+      "publishingDate": "2023-04-20T09:40:00Z",
+      "commentsIds": ["126"],
+      "tags": ["websocket", "react", "real-time"]
+    },
+    {
+      "id": "code021",
+      "title": "Redux Toolkit Query Best Practices",
+      "issueDescription": "How to properly structure RTK Query in a large application?",
+      "codeSnippet": "const api = createApi({\n  baseQuery: fetchBaseQuery({ baseUrl: '/api' }),\n  // endpoint definitions\n});",
+      "author": "alicew",
+      "publishingDate": "2023-04-19T14:25:00Z",
+      "commentsIds": ["127", "128"],
+      "tags": ["redux", "rtk-query"]
+    },
+    {
+      "id": "code022",
+      "title": "Python Async/Await Patterns",
+      "issueDescription": "Common patterns for using async/await in Python",
+      "codeSnippet": "async def fetch_data(url):\n  # implementation with aiohttp\n  pass",
+      "author": "mike_the_architect",
+      "publishingDate": "2023-04-18T10:15:00Z",
+      "commentsIds": ["129"],
+      "tags": ["python", "async"]
+    },
+    {
+      "id": "code023",
+      "title": "React Performance Optimization",
+      "issueDescription": "Techniques for optimizing React component rendering",
+      "codeSnippet": "const ExpensiveComponent = React.memo(({ data }) => {\n  // component implementation\n});",
+      "author": "johndoe88",
+      "publishingDate": "2023-04-17T16:30:00Z",
+      "commentsIds": ["130", "131"],
+      "tags": ["react", "performance"]
+    },
+    {
+      "id": "code024",
+      "title": "TypeScript Utility Types",
+      "issueDescription": "Practical examples of using TypeScript utility types",
+      "codeSnippet": "type PartialUser = Partial<User>;\ntype UserKeys = keyof User;\n// more examples needed",
+      "author": "janesmith",
+      "publishingDate": "2023-04-16T11:45:00Z",
+      "commentsIds": ["132"],
+      "tags": ["typescript", "utility-types"]
+    },
+    {
+      "id": "code025",
+      "title": "CSS-in-JS Theming Solution",
+      "issueDescription": "Implementing a theme system with styled-components",
+      "codeSnippet": "const Button = styled.button`\n  background: ${props => props.theme.primary};\n  // theming implementation\n`;",
+      "author": "bobbydev",
+      "publishingDate": "2023-04-15T09:10:00Z",
+      "commentsIds": ["133", "134"],
+      "tags": ["css-in-js", "styled-components"]
+    },
+    {
+      "id": "code026",
+      "title": "GraphQL Pagination Implementation",
+      "issueDescription": "Best practices for implementing pagination in GraphQL",
+      "codeSnippet": "type Query {\n  users(first: Int, after: String): UserConnection!\n}\n\n// connection type definition",
+      "author": "alicew",
+      "publishingDate": "2023-04-14T14:55:00Z",
+      "commentsIds": ["135"],
+      "tags": ["graphql", "pagination"]
+    },
+    {
+      "id": "code027",
+      "title": "Java Stream API Examples",
+      "issueDescription": "Practical examples of using Java Stream API for data processing",
+      "codeSnippet": "List<String> filtered = list.stream()\n  .filter(s -> s.length() > 3)\n  // more stream operations\n  .collect(Collectors.toList());",
+      "author": "mike_the_architect",
+      "publishingDate": "2023-04-13T10:20:00Z",
+      "commentsIds": ["136", "137"],
+      "tags": ["java", "stream-api"]
+    },
+    {
+      "id": "code028",
+      "title": "React Native Navigation Patterns",
+      "issueDescription": "How to structure navigation in a complex React Native app?",
+      "codeSnippet": "const Stack = createNativeStackNavigator();\n\nfunction App() {\n  // navigation structure needed\n}",
+      "author": "johndoe88",
+      "publishingDate": "2023-04-12T15:35:00Z",
+      "commentsIds": ["138"],
+      "tags": ["react-native", "navigation"]
+    },
+    {
+      "id": "code029",
+      "title": "DynamoDB Single Table Design",
+      "issueDescription": "Implementing single table design pattern in DynamoDB",
+      "codeSnippet": "{\n  \"PK\": \"USER#123\",\n  \"SK\": \"PROFILE\",\n  // how to model different entity types?\n}",
+      "author": "janesmith",
+      "publishingDate": "2023-04-11T11:50:00Z",
+      "commentsIds": ["139", "140"],
+      "tags": ["dynamodb", "database-design"]
+    },
+    {
+      "id": "code030",
+      "title": "Web Workers for Heavy Computation",
+      "issueDescription": "How to offload heavy computations to Web Workers?",
+      "codeSnippet": "const worker = new Worker('worker.js');\n\n// how to properly communicate with worker?",
+      "author": "bobbydev",
+      "publishingDate": "2023-04-10T08:05:00Z",
+      "commentsIds": ["141"],
+      "tags": ["web-workers", "performance"]
     }
   ]
-  
 }
