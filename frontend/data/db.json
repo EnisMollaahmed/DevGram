@@ -447,96 +447,106 @@
   ],
   
   "code-posts": [
-      {
-        "id": "code001",
-        "issueDescription": "How to optimize nested loops for better performance?",
-        "codeSnippet": "for (let i = 0; i < array1.length; i++) {\n  for (let j = 0; j < array2.length; j++) {\n    // comparison logic\n  }\n}",
-        "author": "johndoe88",
-        "publishingDate": "2023-05-09T10:15:00Z",
-        "commentsIds": ["102", "106"],
-        "tags": ["javascript", "performance"]
-      },
-      {
-        "id": "code002",
-        "issueDescription": "Proper error handling for API rate limits",
-        "codeSnippet": "async function fetchData() {\n  const response = await fetch('api/data');\n  return response.json();\n}",
-        "author": "alicew",
-        "publishingDate": "2023-05-08T14:20:00Z",
-        "commentsIds": ["104", "108"],
-        "tags": ["javascript", "api", "error-handling"]
-      },
-      {
-        "id": "code003",
-        "issueDescription": "Implementing binary search algorithm",
-        "codeSnippet": "function search(arr, target) {\n  let left = 0;\n  let right = arr.length - 1;\n  // implementation needed\n}",
-        "author": "mike_the_architect",
-        "publishingDate": "2023-05-07T11:45:00Z",
-        "commentsIds": ["110"],
-        "tags": ["algorithm", "java", "search"]
-      },
-      {
-        "id": "code004",
-        "issueDescription": "Promise.all implementation question",
-        "codeSnippet": "const promises = [fetch(url1), fetch(url2), fetch(url3)];\n// how to handle errors properly?",
-        "author": "janesmith",
-        "publishingDate": "2023-05-06T09:30:00Z",
-        "commentsIds": ["106", "108"],
-        "tags": ["javascript", "promises", "async"]
-      },
-      {
-        "id": "code005",
-        "issueDescription": "Input validation best practices",
-        "codeSnippet": "function processInput(input) {\n  // currently no validation\n  return input.toUpperCase();\n}",
-        "author": "bobbydev",
-        "publishingDate": "2023-05-05T16:10:00Z",
-        "commentsIds": ["108"],
-        "tags": ["c#", "security", "validation"]
-      },
-      {
-        "id": "code006",
-        "issueDescription": "Hash map implementation question",
-        "codeSnippet": "const dataMap = {};\n// looking for most efficient way to populate and query",
-        "author": "alicew",
-        "publishingDate": "2023-05-04T13:25:00Z",
-        "commentsIds": ["102", "110"],
-        "tags": ["java", "data-structures", "optimization"]
-      },
-      {
-        "id": "code007",
-        "issueDescription": "Exponential backoff implementation",
-        "codeSnippet": "function retryRequest(url, attempts = 3) {\n  // need to implement backoff delay\n}",
-        "author": "mike_the_architect",
-        "publishingDate": "2023-05-03T10:40:00Z",
-        "commentsIds": ["104"],
-        "tags": ["javascript", "api", "retry-pattern"]
-      },
-      {
-        "id": "code008",
-        "issueDescription": "Parallelizing async operations",
-        "codeSnippet": "async function processBatch(items) {\n  // currently processing sequentially\n}",
-        "author": "johndoe88",
-        "publishingDate": "2023-05-02T15:15:00Z",
-        "commentsIds": ["106"],
-        "tags": ["c#", "async", "parallel-processing"]
-      },
-      {
-        "id": "code009",
-        "issueDescription": "Rate limit header implementation",
-        "codeSnippet": "app.get('/api', (req, res) => {\n  // need to add rate limit headers\n});",
-        "author": "janesmith",
-        "publishingDate": "2023-05-01T12:05:00Z",
-        "commentsIds": ["104", "108"],
-        "tags": ["node.js", "api", "rate-limiting"]
-      },
-      {
-        "id": "code010",
-        "issueDescription": "Optimizing search in sorted array",
-        "codeSnippet": "function findItem(arr, target) {\n  // linear search - need optimization\n}",
-        "author": "bobbydev",
-        "publishingDate": "2023-04-30T11:50:00Z",
-        "commentsIds": ["102", "110"],
-        "tags": ["java", "algorithm", "optimization"]
-      }
+    {
+      "id": "code001",
+      "title": "Optimizing Nested Loops for Performance",
+      "issueDescription": "How to optimize nested loops for better performance?",
+      "codeSnippet": "for (let i = 0; i < array1.length; i++) {\n  for (let j = 0; j < array2.length; j++) {\n    // comparison logic\n  }\n}",
+      "author": "johndoe88",
+      "publishingDate": "2023-05-09T10:15:00Z",
+      "commentsIds": ["102", "106"],
+      "tags": ["javascript", "performance"]
+    },
+    {
+      "id": "code002",
+      "title": "Handling API Rate Limit Errors",
+      "issueDescription": "Proper error handling for API rate limits",
+      "codeSnippet": "async function fetchData() {\n  const response = await fetch('api/data');\n  return response.json();\n}",
+      "author": "alicew",
+      "publishingDate": "2023-05-08T14:20:00Z",
+      "commentsIds": ["104", "108"],
+      "tags": ["javascript", "api", "error-handling"]
+    },
+    {
+      "id": "code003",
+      "title": "Implementing Binary Search Algorithm",
+      "issueDescription": "Implementing binary search algorithm",
+      "codeSnippet": "function search(arr, target) {\n  let left = 0;\n  let right = arr.length - 1;\n  // implementation needed\n}",
+      "author": "mike_the_architect",
+      "publishingDate": "2023-05-07T11:45:00Z",
+      "commentsIds": ["110"],
+      "tags": ["algorithm", "java", "search"]
+    },
+    {
+      "id": "code004",
+      "title": "Promise.all Error Handling Implementation",
+      "issueDescription": "Promise.all implementation question",
+      "codeSnippet": "const promises = [fetch(url1), fetch(url2), fetch(url3)];\n// how to handle errors properly?",
+      "author": "janesmith",
+      "publishingDate": "2023-05-06T09:30:00Z",
+      "commentsIds": ["106", "108"],
+      "tags": ["javascript", "promises", "async"]
+    },
+    {
+      "id": "code005",
+      "title": "Input Validation Best Practices",
+      "issueDescription": "Input validation best practices",
+      "codeSnippet": "function processInput(input) {\n  // currently no validation\n  return input.toUpperCase();\n}",
+      "author": "bobbydev",
+      "publishingDate": "2023-05-05T16:10:00Z",
+      "commentsIds": ["108"],
+      "tags": ["c#", "security", "validation"]
+    },
+    {
+      "id": "code006",
+      "title": "Efficient Hash Map Implementation",
+      "issueDescription": "Hash map implementation question",
+      "codeSnippet": "const dataMap = {};\n// looking for most efficient way to populate and query",
+      "author": "alicew",
+      "publishingDate": "2023-05-04T13:25:00Z",
+      "commentsIds": ["102", "110"],
+      "tags": ["java", "data-structures", "optimization"]
+    },
+    {
+      "id": "code007",
+      "title": "Implementing Exponential Backoff Strategy",
+      "issueDescription": "Exponential backoff implementation",
+      "codeSnippet": "function retryRequest(url, attempts = 3) {\n  // need to implement backoff delay\n}",
+      "author": "mike_the_architect",
+      "publishingDate": "2023-05-03T10:40:00Z",
+      "commentsIds": ["104"],
+      "tags": ["javascript", "api", "retry-pattern"]
+    },
+    {
+      "id": "code008",
+      "title": "Parallel Processing of Async Operations",
+      "issueDescription": "Parallelizing async operations",
+      "codeSnippet": "async function processBatch(items) {\n  // currently processing sequentially\n}",
+      "author": "johndoe88",
+      "publishingDate": "2023-05-02T15:15:00Z",
+      "commentsIds": ["106"],
+      "tags": ["c#", "async", "parallel-processing"]
+    },
+    {
+      "id": "code009",
+      "title": "API Rate Limit Header Implementation",
+      "issueDescription": "Rate limit header implementation",
+      "codeSnippet": "app.get('/api', (req, res) => {\n  // need to add rate limit headers\n});",
+      "author": "janesmith",
+      "publishingDate": "2023-05-01T12:05:00Z",
+      "commentsIds": ["104", "108"],
+      "tags": ["node.js", "api", "rate-limiting"]
+    },
+    {
+      "id": "code010",
+      "title": "Optimizing Search in Sorted Arrays",
+      "issueDescription": "Optimizing search in sorted array",
+      "codeSnippet": "function findItem(arr, target) {\n  // linear search - need optimization\n}",
+      "author": "bobbydev",
+      "publishingDate": "2023-04-30T11:50:00Z",
+      "commentsIds": ["102", "110"],
+      "tags": ["java", "algorithm", "optimization"]
+    }
   ]
   
 }
