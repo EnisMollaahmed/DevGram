@@ -1,5 +1,5 @@
-import { CodePost } from "../../types/CodePostType";
-import { ErrorMessage } from "../../types/ErrorMessage";
+import { CodePost } from "../types/CodePostType";
+import { ErrorMessage } from "../types/ErrorMessage";
 
 export async function getAllSnippets() : Promise<CodePost[] | ErrorMessage>{
     const resp = await fetch(`${import.meta.env.VITE_SERVER_URL}/code-posts`);

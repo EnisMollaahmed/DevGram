@@ -1,6 +1,6 @@
-import { News } from "../../types/NewsType";
-import { ErrorMessage } from "../../types/ErrorMessage";
-import { Message } from "../../types/Message";
+import { News } from "./../types/NewsType";
+import { ErrorMessage } from "./../types/ErrorMessage";
+import { Message } from "./../types/Message";
 
 export async function getOneNews(id:string): Promise<News | ErrorMessage>{
     const resp = await fetch(`${import.meta.env.VITE_NEWS_URL}/${id}`);
