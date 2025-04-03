@@ -18,6 +18,7 @@ export default function SnippetPage(){
                     {post?.issueDescription}
                 </p>
                 <p className='author-nickname'>{post?.author}</p>
+                 
             </>
         );
     }
