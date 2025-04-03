@@ -15,15 +15,15 @@ const router = createBrowserRouter([
         element:<NewsFeed/>
       },
       {
+        path:'newspage/:id',
+        element:<NewsPage/>
+      },
+      {
         path:'codes',
         element:<CodesPage/>
       }
     ]
   },
-  {
-    path:'newspage/:id',
-    element:<NewsPage/>
-  }
 ])
 
 function App() {

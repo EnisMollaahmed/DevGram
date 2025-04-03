@@ -25,7 +25,7 @@ export default function useFetch<T>(url:string, options:RequestInit){
         })
         .catch(err => {
             setIsLoading(false);
-            setError({message:err, status: 404})
+            setError({message:err, status: 404});
         })
     }, [url, options]);
 
