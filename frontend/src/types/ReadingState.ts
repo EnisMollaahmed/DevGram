@@ -1,0 +1,1 @@
+export type ReadState = "Done" | "Undone" | "Error";
