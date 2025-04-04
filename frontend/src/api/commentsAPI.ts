@@ -23,6 +23,6 @@ export async function getSpecificComments(ids:string[]){
             state = "Undone"
         }
     }
-    if(comments.length === 0) state = "Error"
+    if(comments.length === 0 && ids.length !== 0) state = "Error"
     return {comments, state};
 }
