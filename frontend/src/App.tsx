@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router"
 import NewsPage from "./pages/NewsPage"
 import NewsFeed from "./Components/NewsFeed/NewsFeed"
 import CodesPage from "./pages/CodesPage"
+import SnippetPage from "./pages/SnippetPage"
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path:'codes',
         element:<CodesPage/>
+      },
+      {
+        path: "codepage/:id",
+        element:<SnippetPage/>
       }
     ]
   },

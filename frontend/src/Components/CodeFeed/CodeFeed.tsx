@@ -21,7 +21,7 @@ export default function CodeFeed({
       ) : (
         data.map((post, index) => (
           index === data.length - 1 ? (
-            <Card onClick={()=>navigate('/codepage')} ref={ref} key={index} className='snippet-card'>
+            <Card onClick={()=>navigate(`/codepage/${post.id}`)} ref={ref} key={index} className='snippet-card'>
                 <Card.Body>
                     <Card.Title className='card-title'>{post.title}</Card.Title>
                     <Card.Text className='card-tag-container'>
@@ -32,7 +32,7 @@ export default function CodeFeed({
                 </Card.Body>
             </Card>
           ) : (
-            <Card onClick={()=>navigate('/codepage')} key={index} className='snippet-card'>
+            <Card onClick={()=>navigate(`/codepage/${post.id}`)} key={index} className='snippet-card'>
               <Card.Body>
                 <Card.Title className='card-title'>{post.title}</Card.Title>
                 <Card.Text className='card-tag-container'>

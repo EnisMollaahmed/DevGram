@@ -12,8 +12,9 @@ const reqObj:RequestInit = {method:"GET", headers:{"Content-Type":"application/j
 export default function SnippetPage(){
     const {id} = useParams();
     const {error, result: post, isLoading} = useFetch<CodePost>(`${import.meta.env.VITE_SERVER_URL}/code-posts/${id}`, reqObj);
-    const {comments, status, loading} = useSpecificComments(post?.commentsIds as string[]);
+    const {comments, status, loading} = useSpecificComments(post ? post.commentsIds : null);
     const Snippet = ()=>{
+        if(!post) return<Loading/>
         return (
             <>
                 <CodeDisplay code={(post as CodePost).codeSnippet}/>
