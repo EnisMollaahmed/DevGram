@@ -1,0 +1,24 @@
+.comment-textarea{
+    width: 95%;
+    height: 5rem;
+    border-radius: 1rem;
+    overflow-y: auto;
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin-bottom:2rem;
+}
+
+.issue-description{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.author-nickname{
+    color: rgb(97, 34, 34);
+    letter-spacing: .1rem;
+}
+
+.comments-caption{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
