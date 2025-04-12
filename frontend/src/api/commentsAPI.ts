@@ -1,4 +1,5 @@
 import { ErrorMessage } from "../types/ErrorMessage";
+import { Message } from "../types/Message";
 import { Comment } from "../types/CommentType";
 import { ReadState } from "../types/ReadingState";
 
@@ -26,4 +27,12 @@ export async function getSpecificComments(ids:string[]){
     }
     if(comments.length === 0 && ids && ids.length !== 0) state = "Error"
     return {comments, state};
+}
+
+export async function postComment(comment:Comment) : Promise<Message| ErrorMessage>{
+    const resp = await fetch(`${import.meta.env.SERVER_URL}/{comments}`, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(comment)});
+    if(!resp.ok)
+        return {error: "Could not post the comment."};
+    else
+        return {message: "Comment posted succesfully"};
 }

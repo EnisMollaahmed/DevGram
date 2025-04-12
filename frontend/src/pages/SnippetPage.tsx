@@ -1,5 +1,5 @@
 import CodeDisplay from "../Components/CodeDisplay/CodeDisplay";
-import { useParams } from "react-router";
+import { useParams, Form } from "react-router";
 import useFetch from "../hooks/useFetch";
 import { CodePost } from "../types/CodePostType";
 import ErrorMessage from "../Components/ErrorMessage/ErrorMessage";
@@ -25,7 +25,9 @@ export default function SnippetPage(){
                 <p className='author-nickname'>Author: {post?.author}</p>
                 <section className="comment-section">
                     <p className="comments-caption">Comments</p>
-                    <textarea placeholder="Type your comment here.." className="comment-textarea"></textarea>
+                    <Form action={`codepage/${id}`}>
+                        <textarea name="comment" placeholder="Type your comment here.." className="comment-textarea"></textarea>
+                    </Form>
                     {loading && <Loading/>}
                     {status === "Error" && <ErrorMessage message="Could not load the comments! Please try again later.."/>}
                     {comments.map(comment => {
