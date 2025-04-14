@@ -22,3 +22,24 @@
     font-size: 1.8rem;
     font-weight: bold;
 }
+
+.form{
+    display:flex;
+    flex-direction: column;
+}
+
+.post-button{
+    margin-bottom:2rem;
+    width: 11rem;
+    height: 3rem;
+    font-size: 1.4rem;
+    align-self: flex-end;
+    font-weight: bold;
+    border-radius: 1rem;
+    background-color: gray;
+    color:var(--text-color);
+}
+
+.post-button:hover{
+    background-color: rgb(27, 27, 27);
+}

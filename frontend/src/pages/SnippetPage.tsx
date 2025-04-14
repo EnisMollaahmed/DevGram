@@ -25,8 +25,9 @@ export default function SnippetPage(){
                 <p className='author-nickname'>Author: {post?.author}</p>
                 <section className="comment-section">
                     <p className="comments-caption">Comments</p>
-                    <Form action={`codepage/${id}`}>
+                    <Form action={`codepage/${id}`} className="form">
                         <textarea name="comment" placeholder="Type your comment here.." className="comment-textarea"></textarea>
+                        <button className="post-button">Post Comment</button>
                     </Form>
                     {loading && <Loading/>}
                     {status === "Error" && <ErrorMessage message="Could not load the comments! Please try again later.."/>}

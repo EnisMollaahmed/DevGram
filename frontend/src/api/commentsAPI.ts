@@ -30,9 +30,17 @@ export async function getSpecificComments(ids:string[]){
 }
 
 export async function postComment(comment:Comment) : Promise<Message| ErrorMessage>{
-    const resp = await fetch(`${import.meta.env.SERVER_URL}/{comments}`, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(comment)});
+    const resp = await fetch(`${import.meta.env.SERVER_URL}/comments`, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(comment)});
     if(!resp.ok)
         return {error: "Could not post the comment."};
     else
         return {message: "Comment posted succesfully"};
+}
+
+export async function deleteComment(id: string) : Promise<Message | ErrorMessage>{
+    const resp = await fetch(`${import.meta.env.SERVER_URL}/comments/${id}`, {method:"DELETE", headers:{"Content-Type":"application/json"}});
+    if(!resp.ok)
+        return {error: "Could not delete the comment."};
+    else
+        return {message: "Comment deleted succesfully"};
 }
