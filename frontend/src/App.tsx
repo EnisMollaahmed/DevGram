@@ -17,6 +17,8 @@ import { Comment } from "./types/CommentType"
 import { User } from "./types/UserType"
 import { ErrorMessage } from "./types/ErrorMessage"
 import { Message } from "./types/Message"
+import ProfilePage from "./pages/ProfilePage"
+import MyCodes from "./Components/ProfilePageComponets/MyCodes/MyCodes"
 
 const router = createBrowserRouter([
   {
@@ -53,6 +55,16 @@ const router = createBrowserRouter([
           }
           return {message: "The comment has been posted succesfully"} as Message;
         }
+      },
+      {
+        path: 'my-profile',
+        element:<ProfilePage/>,
+        children:[
+          {
+            path:'my-codes',
+            element:<MyCodes/>
+          }
+        ]
       }
     ]
   },
