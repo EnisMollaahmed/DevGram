@@ -12,3 +12,8 @@ export type User = {
     idOfCommentsOfCodes:string[],
     idOfCommentsOfMemes:string[]
 }
+
+export type OutletUserContext = {
+    userInfo: User | null;
+    setUserInfo: React.Dispatch<React.SetStateAction<User | null>>;
+};
