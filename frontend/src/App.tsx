@@ -61,7 +61,8 @@ const router = createBrowserRouter([
         element:<ProfilePage/>,
         children:[
           {
-            path:'my-codes',
+            index:true,
+            path:'codes',
             element:<MyCodes/>
           }
         ]

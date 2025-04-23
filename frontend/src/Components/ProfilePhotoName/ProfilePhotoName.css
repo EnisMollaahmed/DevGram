@@ -1,0 +1,19 @@
+.photo-name-container{
+    background-color: rgb(152, 152, 152);
+    margin:1rem 0;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    
+}
+
+.photoAndName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.username{
+    font-size: 1.8rem;
+    font-weight: bold;
+}

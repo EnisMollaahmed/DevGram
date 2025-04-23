@@ -10,7 +10,9 @@ import ErrorMessage from "../../ErrorMessage/ErrorMessage";
 
 export default function MyCodes(){
     const {userInfo,} = useOutletContext<OutletUserContext>();
+    console.log(userInfo)
     const {snippets, status, loading} = useSpecificCodeSnippets((userInfo as User).idOfPostedCodes);
+    console.log(snippets);
     const navigate = useNavigate()
     return (
         <>

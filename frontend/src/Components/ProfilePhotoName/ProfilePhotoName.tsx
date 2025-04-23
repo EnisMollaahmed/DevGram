@@ -1,9 +1,10 @@
 import { Figure } from "react-bootstrap";
+import "./ProfilePhotoName.css"
 
 export default function ProfilePhotoName({imageUrl, username}:{imageUrl:string, username:string}){
     return (
         <section className='photo-name-container'>
-            <Figure>
+            <Figure className="photoAndName">
                 <Figure.Image
                     width={171}
                     height={180}
@@ -11,7 +12,7 @@ export default function ProfilePhotoName({imageUrl, username}:{imageUrl:string, 
                     src={imageUrl}
                     roundedCircle
                 />
-                <Figure.Caption>
+                <Figure.Caption className="username">
                     {username}{/*TODO customize styles of this Figure.Caption*/}
                 </Figure.Caption>
             </Figure>

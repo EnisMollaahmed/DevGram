@@ -18,6 +18,7 @@ export default function useSpecificCodeSnippets(snippetsIds: string[] | null) {
 
             setLoading(true);
             try {
+                console.log('here', snippetsIds)
                 const resp = await getCodeSnippetsOfUser(snippetsIds);
                 setStatus(resp.state);
                 setSnippets(resp.snippets);
