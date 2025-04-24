@@ -9,6 +9,7 @@ const mockUser:User = {
     name: "John Doe",
     nickname: "johndoe88",
     email: "john.doe@example.com",
+    bio: "Senior full-stack engineer with 10+ years of experience in JavaScript and cloud architecture. Passionate about performance optimization and mentoring junior devs. Currently building scalable microservices at TechCorp.",
     developerLevel: "senior",
     idOfDislikedNews: ["3", "14", "26"],
     idOfLikedNews: ["1", "5", "16", "24"],

@@ -1,0 +1,101 @@
+/* AboutMeContainer.css */
+.self-info-sect {
+    background-color: var(--primary-background);
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    color: var(--text-color);
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group:last-child {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--secondary-background);
+    background-color: var(--secondary-background);
+    color: var(--text-color);
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: var(--text-color);
+}
+
+.form-group textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.error {
+    display: block;
+    margin-top: 0.5rem;
+    color: #ff6b6b;
+    font-size: 0.9rem;
+}
+
+button[type="submit"] {
+    background-color: var(--secondary-background);
+    color: var(--text-color);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button[type="submit"]:hover:not(:disabled) {
+    background-color: var(--header-background);
+}
+
+button[type="submit"]:disabled {
+    background-color: var(--secondary-background);
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 767px) {
+    .self-info-sect {
+        padding: 1rem;
+    }
+    
+    .form-group {
+        margin-bottom: 1.2rem;
+    }
+    
+    .form-group input[type="text"],
+    .form-group textarea,
+    .form-group select {
+        padding: 0.6rem;
+    }
+    
+    button[type="submit"] {
+        padding: 0.7rem 1.2rem;
+    }
+}

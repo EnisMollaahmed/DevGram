@@ -10,7 +10,7 @@ export default function ProfilePage(){
     const [userInfo, setUserInfo] = useState<User | null>(user);
 
     return (
-        <main className="profile-page">
+        <main>
             <ProfilePhotoName imageUrl={userInfo?.imageUrl as string} username={userInfo?.nickname as string}/>
             <NavLinkContainer/>
             <Outlet context={{userInfo, setUserInfo}}/>{/*TODO finnish it, add my codes, my memes, bio and current position*/}

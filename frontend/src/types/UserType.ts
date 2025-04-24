@@ -4,6 +4,7 @@ export type User = {
     name:string,
     nickname:string,
     email:string,
+    bio:string,
     developerLevel: 'junior' | 'mid' | 'senior' | 'architect' | 'team-lead',
     idOfDislikedNews:string[],
     idOfLikedNews:string[],

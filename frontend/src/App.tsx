@@ -5,8 +5,11 @@ import Home from "./pages/Home"
 import NewsPage from "./pages/NewsPage"
 import CodesPage from "./pages/CodesPage"
 import SnippetPage from "./pages/SnippetPage"
+import ProfilePage from "./pages/ProfilePage"
 
 import NewsFeed from "./Components/NewsFeed/NewsFeed"
+import MyCodes from "./Components/ProfilePageComponets/MyCodes/MyCodes"
+import AboutMeContainer from "./Components/AboutMeContainer/AboutMeContainer"
 
 import {v4 as uuidv4} from 'uuid'
 
@@ -17,8 +20,7 @@ import { Comment } from "./types/CommentType"
 import { User } from "./types/UserType"
 import { ErrorMessage } from "./types/ErrorMessage"
 import { Message } from "./types/Message"
-import ProfilePage from "./pages/ProfilePage"
-import MyCodes from "./Components/ProfilePageComponets/MyCodes/MyCodes"
+
 
 const router = createBrowserRouter([
   {
@@ -64,6 +66,10 @@ const router = createBrowserRouter([
             index:true,
             path:'codes',
             element:<MyCodes/>
+          },
+          {
+            path:"about",
+            element:<AboutMeContainer/>
           }
         ]
       }
